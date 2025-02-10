@@ -45,10 +45,11 @@ const twitterPostTemplate = `
 
 {{postDirections}}
 
-# Task: Generate a post in the voice and style and perspective of {{agentName}} @{{twitterUserName}}.
-Write a post that is {{adjective}} about {{topic}} (without mentioning {{topic}} directly), from the perspective of {{agentName}}. Do not add commentary or acknowledge this request, just write the post.
+# Task: Generate DeFi post for LPs in the voice and style and perspective of {{agentName}} @{{twitterUserName}}.
+Write a post that is {{adjective}} about {{topic}} using data from '# Additional Information About Toby and The World' section of the prompt, from the perspective of {{agentName}}. Do not add commentary or acknowledge this request, just write the post.
 Your response should be 1, 2, or 3 sentences (choose the length at random).
-Your response should not contain any questions. Brief, concise statements only. The total character count MUST be less than {{maxTweetLength}}. No emojis. Use \\n\\n (double spaces) between statements if there are multiple statements in your response.`;
+Your response should not contain any questions. Brief, concise statements only. The total character count MUST BE LESS THAN 280 CHARACTERS. No emojis. Use \\n\\n (double spaces) between statements if there are multiple statements in your response.
+JUST TEXT OF THE TWEET, NO OTHER TEXT.`;
 
 export const twitterActionTemplate =
     `
