@@ -25,7 +25,8 @@
         "node-cache": "5.1.2",
         "tsup": "8.3.5",
         "vitest": "2.1.4",
-        "@cetusprotocol/cetus-sui-clmm-sdk": "^0.1.0"
+        "@cetusprotocol/cetus-sui-clmm-sdk": "^0.1.0",
+        "axios": "1.7.7"
     },
     "scripts": {
         "build": "tsup --format esm --dts",
