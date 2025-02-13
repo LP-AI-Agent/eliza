@@ -2,8 +2,6 @@
 
 Toby is an AI-powered liquidity management agent that enables data-driven position management and optimization for DeFi liquidity providers on SUI blockchain.
 
-# Toby: Professional-Grade DeFi Liquidity Management on SUI
-
 ## 🎯 Vision
 
 DeFi liquidity provision should be accessible, data-driven, and profitable for everyone. Toby aims to bridge the gap between sophisticated trading tools and the current DeFi LP experience.
